@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Student Food Supply</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Student Food Supply</h1>
+        </header>
+
+        <section class="homepage">
+            <h2>Welcome to Student Food Supply!</h2>
+            <a href="#menu" class="cta-button">Explore Our Menu</a>
+            <div class="testimonials">
+                <blockquote>
+                    <p>"The food from Student Food Supply is delicious and convenient. Highly recommended!"</p>
+                    <cite>- John, Student</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"As a parent, I'm grateful for Student Food Supply. It saves me time and ensures my child gets
+                        nutritious meals."</p>
+                    <cite>- Sarah, Parent</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="registration">
+            <h2>Sign Up or Log In</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="#login">Log in</a></p>
+            </form>
+        </section>
+
+        <section class="user-dashboard">
+            <h2>User Dashboard</h2>
+            <div class="subscription">
+                <h3>Subscription</h3>
+                <p>Current plan: Premium</p>
+                <button>Upgrade</button>
+                <button>Downgrade</button>
+                <button>Cancel Subscription</button>
+            </div>
+            <div class="payment-settings">
+                <h3>Payment Settings</h3>
+                <p>Payment method: Credit Card</p>
+                <button>Update Payment Method</button>
+            </div>
+            <div class="order-history">
+                <h3>Order History</h3>
+                <ul>
+                    <li>Order #1234 - Status: Delivered</li>
+                    <li>Order #5678 - Status: Processing</li>
+                </ul>
+            </div>
+            <div class="delivery-address">
+                <h3>Delivery Address</h3>
+                <ul>
+                    <li>123 Main St, City, State</li>
+                    <li>456 Elm St, City, State</li>
+                </ul>
+                <button>Add Address</button>
+                <button>Edit Address</button>
+                <button>Delete Address</button>
+            </div>
+        </section>
+
+        <section class="menu-selection" id="menu">
+            <h2>Menu Selection</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="meal1.jpg" alt="Meal 1">
+                    <h3>Breakfast Meal</h3>
+                    <p>Scrambled eggs, bacon, toast, and fruit</p>
+                    <p class="price">$8.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="meal2.jpg" alt="Meal 2">
+                    <h3>Lunch Meal</h3>
+                    <p>Grilled chicken, rice, and mixed vegetables</p>
+                    <p class="price">$10.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Add more menu items -->
+            </div>
+        </section>
+
+        <section class="checkout">
+            <h2>Checkout</h2>
+            <div class="cart-summary">
+                <h3>Cart Summary</h3>
+                <ul class="cart-items">
+                    <li>Breakfast Meal - $8.99</li>
+                    <li>Lunch Meal - $10.99</li>
+                </ul>
+                <p class="total">Total: $19.98</p>
+            </div>
+            <div class="delivery-options">
+                <h3>Delivery Options</h3>
+                <label>
+                    <input type="radio" name="delivery" value="pickup" checked>
+                    Pickup
+                </label>
+                <label>
+                    <input type="radio" name="delivery" value="delivery">
+                    Delivery
+                </label>
+                <input type="text" name="address" placeholder="Enter delivery address" class="address-field">
+            </div>
+            <div class="payment">
+                <h3>Payment</h3>
+                <label>
+                    <input type="radio" name="payment" value="credit-card" checked>
+                    Credit/Debit Card
+                </label>
+                <label>
+                    <input type="radio" name="payment" value="paypal">
+                    PayPal
+                </label>
+            </div>
+            <button class="place-order">Place Order</button>
+        </section>
+
+        <section class="order-tracking">
+            <h2>Order Tracking</h2>
+            <div class="order-status">
+                <p>Order #1234</p>
+                <p>Status: Out for Delivery</p>
+            </div>
+            <div class="estimated-time">
+                <p>Estimated Delivery Time: 30 minutes</p>
+            </div>
+            <div class="delivery-notifications">
+                <p>You will receive SMS notifications for order updates.</p>
+            </div>
+        </section>
+
+        <section class="feedback-reviews">
+            <h2>Feedback and Reviews</h2>
+            <div class="rating">
+                <label>
+                    Rate the meal:
+                    <select>
+                        <option value="5">5 stars</option>
+                        <option value="4">4 stars</option>
+                        <option value="3">3 stars</option>
+                        <option value="2">2 stars</option>
+                        <option value="1">1 star</option>
+                    </select>
+                </label>
+            </div>
+            <div class="review-comments">
+                <label for="review">Leave a review:</label>
+                <textarea id="review" name="review" rows="4"></textarea>
+            </div>
+            <button class="submit-review">Submit Review</button>
+        </section>
+
+        <section class="contact-support">
+            <h2>Contact and Support</h2>
+            <div class="contact-info">
+                <p>Email: info@studentfoodsupply.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div class="faqs">
+                <h3>Frequently Asked Questions</h3>
+                <ul>
+                    <li>Question 1?</li>
+                    <li>Question 2?</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h3>Contact Form</h3>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,324 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Homepage styles */
+.homepage {
+    text-align: center;
+    padding: 50px;
+}
+
+.homepage h2 {
+    font-size: 24px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.testimonials {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials blockquote {
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.testimonials blockquote p {
+    font-style: italic;
+}
+
+.testimonials blockquote cite {
+    font-weight: bold;
+}
+
+/* Registration styles */
+.registration {
+    text-align: center;
+    padding: 50px;
+}
+
+.registration form {
+    display: inline-block;
+    text-align: left;
+}
+
+.registration label {
+    display: block;
+    margin-top: 10px;
+}
+
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.registration button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* User dashboard styles */
+.user-dashboard {
+    text-align: center;
+    padding: 50px;
+}
+
+.user-dashboard h3 {
+    margin-top: 20px;
+}
+
+.user-dashboard button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Menu selection styles */
+.menu-selection {
+    text-align: center;
+    padding: 50px;
+}
+
+.menu-selection h3 {
+    margin-top: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+}
+
+.menu-item p {
+    margin-top: 5px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+}
+
+.menu-item .add-to-cart {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Checkout styles */
+.checkout {
+    text-align: center;
+    padding: 50px;
+}
+
+.checkout h3 {
+    margin-top: 20px;
+}
+
+.checkout .cart-summary {
+    text-align: left;
+}
+
+.checkout .cart-items {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.checkout .cart-items li {
+    margin-bottom: 5px;
+}
+
+.checkout .total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.checkout .delivery-options {
+    margin-top: 20px;
+}
+
+.checkout .address-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.checkout .payment {
+    margin-top: 20px;
+}
+
+.checkout button.place-order {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Order tracking styles */
+.order-tracking {
+    text-align: center;
+    padding: 50px;
+}
+
+.order-tracking h3 {
+    margin-top: 20px;
+}
+
+.order-status {
+    margin-top: 20px;
+}
+
+.order-status p {
+    margin-bottom: 10px;
+}
+
+.estimated-time {
+    margin-top: 20px;
+}
+
+.delivery-notifications {
+    margin-top: 20px;
+}
+
+/* Feedback and reviews styles */
+.feedback-reviews {
+    text-align: center;
+    padding: 50px;
+}
+
+.feedback-reviews h3 {
+    margin-top: 20px;
+}
+
+.feedback-reviews .rating {
+    margin-top: 20px;
+}
+
+.feedback-reviews .review-comments {
+    margin-top: 20px;
+}
+
+.feedback-reviews textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.feedback-reviews .submit-review {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Contact and support styles */
+.contact-support {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-support h3 {
+    margin-top: 20px;
+}
+
+.contact-support .contact-info {
+    margin-top: 20px;
+}
+
+.contact-support .faqs {
+    margin-top: 20px;
+}
+
+.contact-support .faqs ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.contact-support .faqs li {
+    margin-bottom: 5px;
+}
+
+.contact-support .contact-form {
+    margin-top: 20px;
+}
+
+.contact-support .contact-form form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-support .contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-support .contact-form input[type="text"],
+.contact-support .contact-form input[type="email"],
+.contact-support .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.contact-support .contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
